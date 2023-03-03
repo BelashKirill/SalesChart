@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    background: #F9FAFB;
+}
+
+.title-block {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.subtitle-block {
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-lowbold {
+    font-weight: 500;
+}
+
+.facebook {
+    display: block;
+    width: 24px;
+    height: 25px;
+    background: url('@/assets/img/icon_facebook.svg') no-repeat;
+}
+
+.twitter {
+    display: block;
+    width: 24px;
+    height: 25px;
+    background: url('@/assets/img/icon_twitter.svg') no-repeat;
+}
+
+.github {
+    display: block;
+    width: 24px;
+    height: 25px;
+    background: url('@/assets/img/icon_github.svg') no-repeat;
+}
+
+.dribble {
+    display: block;
+    width: 24px;
+    height: 25px;
+    background: url('@/assets/img/icon_dribble.svg') no-repeat;
+}
+
+.filter {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('@/assets/img/adjustments.svg') no-repeat;
+}
+
+.globe {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('@/assets/img/globe.svg') no-repeat;
+}
+
+.cog {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('@/assets/img/cog.svg') no-repeat;
+}
+
+.open-menu {
+    display: none;
+    width: 28px;
+    height: 29px;
+    margin-left: 24px;
+    background: url('@/assets/img/menu.svg') no-repeat;
+    cursor: pointer;
+}
+
+@import url('@/assets/css/mobile.scss');
